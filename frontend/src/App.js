@@ -16,7 +16,8 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://127.0.0.1:8000/images');
+      // const response = await axios.get('http://127.0.0.1:8000/images');
+      const response = await axios.get('https://strip-color-detection.onrender.com/images');
       setFetchedData(response.data.reverse());
     } catch (error) {
       console.error(error);
@@ -28,7 +29,9 @@ const App = () => {
       const formData = new FormData();
       formData.append('image', selectedImage);
 
-      await axios.post('http://127.0.0.1:8000/images', formData, {
+      // await axios.post('http://127.0.0.1:8000/images', 
+      await axios.post('https://strip-color-detection.onrender.com/images', 
+      formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
