@@ -1,0 +1,22 @@
+.image-info {
+    display: flex;
+    margin: 1rem 17rem;
+    column-gap: 11rem;
+}
+
+img.img-fluid {
+    height: 23rem;
+}
+
+.json-data {
+    background-color: #effffe;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: monospace;
+    width: 12.4rem;
+  }
+
+.display-title {
+    display: flex;
+    justify-content: center;
+}
