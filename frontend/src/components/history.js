@@ -9,7 +9,7 @@ const History = ({ fetchedData }) => {
         {fetchedData.map((item, index) => (
           <div className='image-info' key={index}>
             <div>
-            <h2>Image</h2>
+            <h2>Strip</h2>
             <img className="img-fluid" src={item.image} alt={`Image ${index + 1}`} />
             </div>
            

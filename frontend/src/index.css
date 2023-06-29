@@ -5,9 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -16,4 +17,20 @@ code {
   background: transparent;
   border: 1px;
   font-size: 1rem;
+  top: 3rem;
+  position: absolute;
+  right: 7rem;
 }
+
+#heading{
+  margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1023px) {
+  .history-button{
+
+    left: 56rem;
+  }
+} */
+

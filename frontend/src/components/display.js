@@ -2,13 +2,13 @@ import './styles.css'
 
 const Display = ({ fetchedData }) => {
   return (
-    <div>
+    <div className="display-box">
     <h1 className='display-title'>Display</h1>
     <ul>
       {fetchedData.map((item, index) => (
         <div className='image-info' key={index}>
           <div>
-          <h2>Image </h2>
+          <h2>Strip </h2>
           <img className="img-fluid" src={item.image} alt={`Image ${index + 1}`} />
           </div>
           <div>

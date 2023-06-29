@@ -15,10 +15,11 @@ const Newimg = ({ onImageUpload }) => {
   };
 
   return (
-    <div>
+    <div className='upload-box'>
+        <h1  id='heading'>Upload the image of Your strip</h1>
       <input type="file" accept="image/*" onChange={handleImageSelect} />
-      <button onClick={handleUpload} disabled={!selectedImage}>
-        Upload Image
+      <button id='upload-button' onClick={handleUpload} disabled={!selectedImage}>
+        Upload 
       </button>
     </div>
   );
