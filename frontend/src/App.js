@@ -48,13 +48,16 @@ const App = () => {
 
   return (
     <>
-      {/* <button className='history-button' onClick={toggleHistory}>{buttonText}</button> */}
+    <h1 className='heading'>Strip Color Analysis</h1>
       <Newimg onImageUpload={handleImageUpload} />
-      {showHistory ? <History fetchedData={fetchedData} /> : <Display fetchedData={fetchedData.slice(0, 1)} />}
+      {showHistory ? (
+        <History fetchedData={fetchedData} toggleHistory={toggleHistory} showHistory={showHistory} />
+      ) : (
+        <Display fetchedData={fetchedData.slice(0, 1)} toggleHistory={toggleHistory} showHistory={showHistory} />
+      )}
     </>
   );
 };
-
 
 
 export default App;

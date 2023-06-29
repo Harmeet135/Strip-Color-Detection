@@ -1,9 +1,12 @@
 import './styles.css'
 
-const Display = ({ fetchedData }) => {
+const Display = ({ fetchedData, toggleHistory, showHistory }) => {
   return (
     <div className="display-box">
-    <h1 className='display-title'>Display</h1>
+      <h1 className='display-title' onClick={toggleHistory}>Recent Result</h1>
+      <p className='display-title' onClick={toggleHistory}>
+        {showHistory ? 'Go Back' : '( Click to display previous results )'}
+      </p>
     <ul>
       {fetchedData.map((item, index) => (
         <div className='image-info' key={index}>

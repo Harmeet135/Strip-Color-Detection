@@ -5,6 +5,11 @@
 .display-title{
     display: flex;
     justify-content: center;
+    margin: 0;
+    cursor: pointer;
+}
+p.display-title {
+    font-size: x-small;
 }
 
 .image-info{
@@ -23,8 +28,9 @@
     width: 11.2rem;
 }
 
-.display-box{
-    /* width: ; */
+#heading-new {
+    font-weight: 400;
+    font-size: 19px;
 }
 
 @media (max-width: 765px) {
