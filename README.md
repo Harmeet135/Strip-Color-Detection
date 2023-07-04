@@ -1,4 +1,8 @@
 # Strip-Color-Detection
+
+<div align="center">
+  <img src="https://imgur.com/ImCpc9a"/>
+</div>
 The Strip-Color-Detection project is a web interface that allows users to upload an image of a urine strip and identify the colors present on the strip. The project utilizes the OpenCV library for image analysis and processing.
 
 The web interface provides a user-friendly way for individuals to analyze urine strips without the need for specialized equipment or expertise. By simply uploading an image of the urine strip, users can obtain the RGB values of the detected colors on the strip.
