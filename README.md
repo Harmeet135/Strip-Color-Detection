@@ -4,7 +4,16 @@
   <img src="https://i.imgur.com/ImCpc9a.png"/>
 </div>
 
+## Problem Statement
+
+Problem Statement for Strip-Color-Detection Project:
+
+In healthcare and personal monitoring, the analysis of urine strips is a common method for detecting various conditions and bodily imbalances. Traditionally, this requires either specialized equipment or visual assessment by trained professionals, which can be costly, time-consuming, and subject to human error. There is a need for a more accessible, accurate, and efficient method of analyzing urine strips to make this important health monitoring task more user-friendly and reliable.
+
+The Strip-Color-Detection project aims to address these challenges by offering a web-based interface that allows users to upload images of urine strips and receive precise color analyses. This project seeks to eliminate the need for specialized equipment and reduce reliance on subjective visual assessments by providing a simple, yet effective, solution for obtaining quick and accurate readings of urine strip colors through digital means. The ultimate goal is to streamline the process of urine strip analysis, making it more accessible and reliable for healthcare professionals and individuals alike, thereby enhancing the monitoring and management of health conditions.
+
 ## About
+
 The Strip-Color-Detection project is a web interface that allows users to upload an image of a urine strip and identify the colors present on the strip. The project utilizes the OpenCV library for image analysis and processing.
 
 The web interface provides a user-friendly way for individuals to analyze urine strips without the need for specialized equipment or expertise. By simply uploading an image of the urine strip, users can obtain the RGB values of the detected colors on the strip.
